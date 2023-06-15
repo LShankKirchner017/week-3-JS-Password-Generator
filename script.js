@@ -9,12 +9,23 @@ var generatePassword = function () {
   // How long do you want to password to be? (Prompt)
     // store length in var
   // Do you want lower case? (Confirm)
+  var wantsLowerCase = confirm ("Do you want lower case?")
     // If yes
+    if (wantsLowerCase) {
       //merge lowerCase array into userSelections array
-    // If no, do nothing
+      userSelections = userSelections.concat(lowerCase);
+    }
+    
+// If no, do nothing
   // Do you want upper case? (Confirm)
+
+   var wantsUpperCase = confirm("Do you want upper case?");
    // If yes
-      //merge upperCase array into userSelections array
+   if (wantsUpperCase) {
+     //merge lowerCase array into userSelections array
+     userSelections = userSelections.concat(upperCase);
+   }
+
     // If no, do nothing
   // Do you want numbers? (Confirm)
    // If yes
@@ -24,6 +35,8 @@ var generatePassword = function () {
      // If yes
       //merge specialChars array into userSelections array
     // If no, do nothing
+
+console.log(userSelections)
 
   // THEN I am presented with a series of prompts for password criteria
   //WHEN prompted for the length of the password
