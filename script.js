@@ -35,11 +35,17 @@ var generatePassword = function () {
   }
   console.log(userSelections);
 
-
-  // for (var i = 0, i < passwordLength; i++){
-  //   var rand = Math.floor(Math.random() * userSelections.length)
-  //   console.log(userSelections[rand])
-  // }
+  var password = ""
+  // for = we are starting some kind of loop
+  // var i = 0 = the variable that we are looping over and what number ot's starting with 
+  // i< passwordLength = thisis our condition if the condition is true, then we continue the loop, if it's not true, we break it or stop it
+  // i++ = after we run the code, change the looping variable 
+  for (var i = 0; i < passwordLength; i++){
+    var rand = Math.floor(Math.random() * userSelections.length)
+    password += userSelections[rand]
+    console.log(password)
+  }
+return password
 };
 // Write password to the #password input
 
