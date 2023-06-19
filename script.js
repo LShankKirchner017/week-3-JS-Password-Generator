@@ -36,10 +36,10 @@ var generatePassword = function () {
   console.log(userSelections);
 
 
-  for (var i = 0, i < passwordLength; i++){
-    var rand = Math.floor(Math.random() * userSelections.length)
-    console.log(userSelections[rand])
-  }
+  // for (var i = 0, i < passwordLength; i++){
+  //   var rand = Math.floor(Math.random() * userSelections.length)
+  //   console.log(userSelections[rand])
+  // }
 };
 // Write password to the #password input
 
