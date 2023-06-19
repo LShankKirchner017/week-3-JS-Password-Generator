@@ -8,6 +8,10 @@ Other portions of the code were written with the help of Donnahue George via tut
 This project was meant to test my skills in using JavaScript to get a password generator to function correctly using our basic JavaScript lessons in addition to extra help via office hours and tutoring. 
 
 
+Github Link: https://github.com/LShankKirchner017/week-3-JS-Password-Generator 
+
+Webpage: https://lshankkirchner017.github.io/week-3-JS-Password-Generator/ 
+
 
 
 
