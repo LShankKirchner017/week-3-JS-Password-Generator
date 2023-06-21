@@ -13,7 +13,7 @@ Github Link: https://github.com/LShankKirchner017/week-3-JS-Password-Generator
 Webpage: https://lshankkirchner017.github.io/week-3-JS-Password-Generator/ 
 
 
-
+![Alt text](<Screenshot 2023-06-21 at 8.29.45 AM.png>)
 
 
 

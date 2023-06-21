@@ -9,12 +9,13 @@ var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"]
 var generatePassword = function () {
   var userSelections = [];
 
-  var passwordLength = prompt("How long do you want your password to be? (8 - 128 characters).")
+  var passwordLength = prompt("How long do you want your password to be? (8 - 128 characters).");
+  passwordLength = parseInt(passwordLength)
     if (passwordLength < 8 || passwordLength > 128) {
       alert ("Password must be between 8 and 128 characters.")
       return
     } 
-
+    console.log(passwordLength)
   var wantsLowerCase = confirm("Do you want lower case?");
  
   if (wantsLowerCase) {
